@@ -1,0 +1,19 @@
+@import "./fishes.css";
+@import "./quotes.css";
+@import './locations.css';
+
+.header {
+  display: flex;
+} 
+
+.content {
+  display: flex;
+}
+
+.left-container {
+  flex: 2;
+}
+
+.right-container {
+  flex: 1;
+}
