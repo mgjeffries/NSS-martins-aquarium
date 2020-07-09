@@ -1,4 +1,6 @@
 .fishes {
   background-color: aqua;
   padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }

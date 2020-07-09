@@ -17,6 +17,8 @@
 .right--container {
   background-color:royalblue;
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo--img {
@@ -24,11 +26,12 @@
 }
 
 .image--card {
-  height: 7rem;
+  width: 15rem;
 }
 
 .card {
   margin: 1rem;
   padding: 16px;
   background: goldenrod;
+  width: 20rem;
 }

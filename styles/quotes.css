@@ -1,4 +1,6 @@
 .quotes {
   background-color: bisque;
   padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
