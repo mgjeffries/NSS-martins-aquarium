@@ -15,7 +15,7 @@
 }
 
 .right--container {
-  background-color: goldenrod;
+  background-color:royalblue;
   flex: 1;
 }
 
@@ -25,4 +25,10 @@
 
 .image--card {
   height: 7rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 16px;
+  background: goldenrod;
 }
