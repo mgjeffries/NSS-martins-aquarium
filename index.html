@@ -4,27 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <header>
-    <img src="404.img" alt="logo">
-    <h1>Martin's Aquarium by MGJ</h1>
+  <header class="header">
+    <div><img class="logo--img" src="./images/logo.png" alt="logo"></div>
+    <div><h1>Martin's Aquarium by MGJ</h1></div>
   </header>
-  <main>
-    <div class="left-container">
-      <article class="fish">
-
+  <main class="content">
+    <div class="left--container">
+      <article class="fishes">
+        <section class="fish card">
+          <div ><img class="fish__image image--card" src="./images/whale.png" alt="fish_img"></div>
+          <div class="fishname">Whally</div>
+          <div class="fish__species">Whale</div>
+          <div class="fish__length">Big</div>
+          <div class="fish__location">The Ocean</div>
+          <div class="fish__diet">krill</div>
+        </section>
+        <section class="fish card">
+          <div ><img class="fish__image image--card" src="./images/whale.png" alt="fish_img"></div>
+          <div class="fishname">Other Whale</div>
+          <div class="fish__species">Whale</div>
+          <div class="fish__length">Big</div>
+          <div class="fish__location">The Ocean</div>
+          <div class="fish__diet">krill</div>
+        </section>
       </article>
       <article class="quotes">
-
+        <section class="quote card">blub blub</section>
       </article>
       <article class="locations">
-
+        <section class="location card">
+          <div ><img class="location__image image--card" src="./images/pacificOcean.png" alt="pacific ocean 4.5 stars"></div>
+          <div class="location__name">the ocean</div>
+          <div class="location__rating">4.5 stars</div>
+        </section>
       </article>
     </div>
-    <div class="right-container">
+    <div class="right--container">
       <aside class="tips">
-        
+        <section class="card">
+          <div>don't eat 'em</div>
+        </section>
       </aside>
     </div>
   </main>

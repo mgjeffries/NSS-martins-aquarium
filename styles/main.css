@@ -1,0 +1,34 @@
+@import "./fishes.css";
+@import "./quotes.css";
+@import './locations.css';
+
+.header {
+  display: flex;
+} 
+
+.content {
+  display: flex;
+}
+
+.left--container {
+  flex: 2;
+}
+
+.right--container {
+  background-color:royalblue;
+  flex: 1;
+}
+
+.logo--img {
+  height: 8rem;
+}
+
+.image--card {
+  height: 7rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 16px;
+  background: goldenrod;
+}
