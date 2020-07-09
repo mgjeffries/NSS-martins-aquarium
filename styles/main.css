@@ -15,5 +15,14 @@
 }
 
 .right--container {
+  background-color: goldenrod;
   flex: 1;
+}
+
+.logo--img {
+  height: 8rem;
+}
+
+.image--card {
+  height: 7rem;
 }
