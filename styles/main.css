@@ -10,10 +10,10 @@
   display: flex;
 }
 
-.left-container {
+.left--container {
   flex: 2;
 }
 
-.right-container {
+.right--container {
   flex: 1;
 }
