@@ -1,7 +1,3 @@
-import { lookupFish } from './dataProvider.js'
+import { fishDomModifier } from './fish-dom-modifier.js'
 
-const allTheFish = lookupFish()
-
-for (const fish of allTheFish) {
-  console.log(fish)
-}
+fishDomModifier()
