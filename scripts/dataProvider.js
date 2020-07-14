@@ -24,3 +24,7 @@ const fishCollection = [
       image: "images/sallySeaTurtle.jpg"
     }
 ]
+
+export const lookupFish = () => {
+  return fishCollection.slice()
+}
