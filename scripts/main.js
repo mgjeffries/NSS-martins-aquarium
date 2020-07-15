@@ -1,6 +1,8 @@
 import { fishDomModifier } from './fish-dom-modifier.js'
-import { tipLookup } from './tips/tipDataProvider.js'
+import { tipDOMModifier } from './tips/tip-dom-modifier.js'
 
 fishDomModifier()
+tipDOMModifier()
 
-console.log(tipLookup())
+
+
