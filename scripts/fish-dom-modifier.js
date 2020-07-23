@@ -9,10 +9,8 @@ export const fishDomModifier = () => {
   // get the object containing the fish data
   const allTheFish = lookupFish()
   // create the html for all the fish cards
-  let allFishHTML = ""
-  for (const fish of allTheFish) {
-    allFishHTML += fishHTMLCreator(fish)
-  }
+  let allFishHTML = allTheFish.map( fish => fishHTMLCreator(fish) ).join("")
+
   // modify the DOM
   contentElement.innerHTML +=`
   <article class="fishes">
