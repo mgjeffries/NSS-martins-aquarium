@@ -8,11 +8,7 @@ export const tipDOMModifier = () => {
   const contentElement = document.querySelector(".right--container")
   // get the tips object from the data store
   const allTips = tipLookup()
-  let alltipsHTML = ''
-  for (const tip of allTips) {
-    //convert the tips object to html
-    alltipsHTML += tipHTMLcreator(tip)
-  }
+  let alltipsHTML = allTips.map( tip => tipHTMLcreator(tip) ).join("")
   // modify the dom
   contentElement.innerHTML += `
   <aside class="tips">
